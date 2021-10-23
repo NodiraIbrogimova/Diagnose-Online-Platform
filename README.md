@@ -1,4 +1,6 @@
+
 # TfDiagnose
+Online platform for a project with a target: AI systems + clinicians for an early-diagnosis
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
