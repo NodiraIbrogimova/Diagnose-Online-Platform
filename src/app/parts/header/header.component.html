@@ -1,0 +1,43 @@
+<nav class="py-2 bg-light border-bottom">
+  <div class="container d-flex flex-wrap">
+    <ul class="nav me-auto">
+      <!-- <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a></li> -->
+      <li class="nav-item" *ngFor="let item of navItems"><a routerLink="/{{item.link}}" routerLinkActive="active" class="nav-link link-dark px-2">{{item.name}}</a></li>
+    </ul>
+    <ul class="nav">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
+    </ul>
+  </div>
+</nav>
+<header class="py-3 mb-3 border-bottom">
+  <div class="container d-flex flex-wrap justify-content-center">
+    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+      <app-svg class="bi me-2" width="40" height="32"></app-svg>
+    </a>
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+      <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+    </form>
+  </div>
+</header>
+<!-- <header>
+    <div class="container">
+      <nav class="nav">
+        <div class="mobile-menu" (click)=toggleMenu()>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+  
+        <a class="brand" href="#">
+          <img src="assets/icons/logo.png" alt="logo" />
+        </a>
+  
+        <ul class="nav-list">
+          <li class="nav-item" *ngFor="let item of navItems" (click)=toggleMenu()>
+            <a class="nav-link" routerLink="/{{item.link}}" routerLinkActive="active">{{item.name}}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header> -->
