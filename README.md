@@ -1,5 +1,5 @@
 
-# TfDiagnose
+# TF Diagnose
 Online platform for a project with a target: AI systems + clinicians for an early-diagnosis
 This platform includes the extended version of the design provided in [Figma](https://www.figma.com/file/0MW7v9ZfVjhqQ3f20kQbL2/Typhoid-Fever--early-diagnosis-%7C-Logo?node-id=0%3A1)
 
