@@ -1,5 +1,13 @@
-.btn {
-    color: #fff;
+footer {
     background-color: #0C570A;
-    border-color: #0C570A;
+    color: white;
+}
+
+.nav .nav-item .nav-link{
+    color: rgba($color: #fff, $alpha: .7);
+}
+
+.btn {
+    color: #0C570A;
+    background-color: #fff;
 }

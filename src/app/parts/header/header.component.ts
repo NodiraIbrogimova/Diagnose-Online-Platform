@@ -10,8 +10,8 @@ export class HeaderComponent implements OnDestroy {
   navItems = [
     { name: 'Home', link: 'home' },
     { name: 'About', link: 'about' },
-    { name: 'Contact Us', link: 'contact' },
     { name: 'Blog', link: 'blog' },
+    { name: 'Contact Us', link: 'contact' }
   ];
   setOpacityLevel = false;
   destroy = new Subject();
