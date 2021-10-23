@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.scss']
 })
 export class BlogComponent implements OnInit {
-
+  cards = [1,1,1,1,1];
   constructor() { }
 
   ngOnInit(): void {

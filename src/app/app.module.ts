@@ -11,6 +11,7 @@ import { HeaderComponent } from './parts/header/header.component';
 import { FooterComponent } from './parts/footer/footer.component';
 import { LogoComponent } from './parts/logo/logo.component';
 import { CircleComponent } from './parts/circle/circle.component';
+import { RectangeComponent } from './parts/rectange/rectange.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CircleComponent } from './parts/circle/circle.component';
     HeaderComponent,
     FooterComponent,
     LogoComponent,
-    CircleComponent
+    CircleComponent,
+    RectangeComponent
   ],
   imports: [
     BrowserModule,
