@@ -9,7 +9,8 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './parts/header/header.component';
 import { FooterComponent } from './parts/footer/footer.component';
-import { SvgComponent } from './parts/svg/svg.component';
+import { LogoComponent } from './parts/logo/logo.component';
+import { CircleComponent } from './parts/circle/circle.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SvgComponent } from './parts/svg/svg.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    SvgComponent
+    LogoComponent,
+    CircleComponent
   ],
   imports: [
     BrowserModule,
