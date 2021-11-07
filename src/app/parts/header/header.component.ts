@@ -11,6 +11,7 @@ export class HeaderComponent implements OnDestroy {
     { name: 'Home', link: 'home' },
     { name: 'About', link: 'about' },
     { name: 'Blog', link: 'blog' },
+    { name: 'Survey', link: 'survey' },
     { name: 'Contact Us', link: 'contact' }
   ];
   setOpacityLevel = false;

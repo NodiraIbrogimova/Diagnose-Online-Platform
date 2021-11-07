@@ -1,8 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --main-color: #0c570a;
+}
+
 .text--green {
-    color: #0C570A;
+  color: var(--main-color);
 }
 
 .bg--green {
-    background-color: #0C570A;
+  background-color: var(--main-color);
+}
+
+.active {
+  font-weight: bolder;
+  color: var(--main-color);
+}
+
+.link-dark:focus,
+.link-dark:hover {
+  color: var(--main-color);
+}
+ul:hover li:not(:hover) a {
+  opacity: 0.2;
+}
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background: var(--main-color);
+  transform: scaleX(0);
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+ul li a:hover::after,
+ul li a.active::after {
+  transform: scaleX(1);
+}
+ul li a {
+  position: relative;
+  display: flex;
+  color: white;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
