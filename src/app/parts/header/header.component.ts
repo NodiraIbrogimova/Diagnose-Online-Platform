@@ -1,12 +1,11 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit, OnDestroy {
+export class HeaderComponent {
   navItems = [
     { name: 'Home', link: 'home' },
     { name: 'About', link: 'about' },
@@ -14,38 +13,4 @@ export class HeaderComponent implements OnInit, OnDestroy {
     { name: 'Survey', link: 'survey' },
     { name: 'Contact Us', link: 'contact' }
   ];
-  setOpacityLevel = false;
-  destroy = new Subject();
-  destroy$ = this.destroy.asObservable();
-
-  constructor() {
-    // const homeBar = document.getElementsByClassName('nav-link');
-    // console.log('res: ', homeBar);
-    
-  }
-
-  ngOnInit(): void {
-    let homeBar = document.getElementsByClassName('nav-link')[0];
-    console.log('result: ', homeBar);
-    homeBar.className += " active";
-  }
-
-  ngOnDestroy(): void {
-    this.destroy.next();
-  }
-
-  toggleMenu(): void {
-    const hamburger = document.querySelector('.mobile-menu');
-    const navList = document.querySelector('.nav-list');
-    const links = document.querySelectorAll('.nav-list .nav-item');
-
-    console.log('check navlis: ', navList);
-
-    // navList.classList.toggle('open');
-    // links.forEach(element => {
-    //   element.classList.toggle('fade');
-    // });
-
-  }
-
 }

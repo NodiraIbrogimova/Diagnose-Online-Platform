@@ -3,6 +3,11 @@
   color: var(--main-color);
 }
 
+.nav--login {
+  border: 1px solid #c0bfbf;
+  border-radius: 4px;
+}
+
 .link-dark:focus,
 .link-dark:hover {
   color: var(--main-color);
