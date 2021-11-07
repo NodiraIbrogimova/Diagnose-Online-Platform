@@ -12,9 +12,10 @@ The current version provides:
 - [x] Responsive layout: Desktop, tablet and mobile versions of the website
 
 
-<img width="1440" alt="Screen Shot 2021-10-23 at 4 40 25 PM" src="https://user-images.githubusercontent.com/11291840/138554764-22ce68c2-96a1-4210-a834-934bf9103eac.png">
-
-<img width="1440" alt="Screen Shot 2021-10-23 at 4 56 46 PM" src="https://user-images.githubusercontent.com/11291840/138555010-27e9f623-0769-4708-8786-3d9f13744a6e.png">
+<img width="1440" alt="Screen Shot 2021-11-07 at 11 27 22 PM" src="https://user-images.githubusercontent.com/11291840/140657398-05c05c20-f4b9-4227-93b3-f8a4af5dd6e0.png">
+<img width="1219" alt="Screen Shot 2021-11-07 at 11 32 23 PM" src="https://user-images.githubusercontent.com/11291840/140657404-10245e74-5417-44eb-ab10-8557a3b95710.png">
+<img width="1293" alt="Screen Shot 2021-11-07 at 11 32 39 PM" src="https://user-images.githubusercontent.com/11291840/140657406-22e3f32d-f8c0-44a6-a5e8-5fad2b0ae38e.png">
+<img width="916" alt="Screen Shot 2021-11-07 at 11 32 50 PM" src="https://user-images.githubusercontent.com/11291840/140657409-c6a9fc9d-887a-4887-8d05-101f101032d6.png">
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
