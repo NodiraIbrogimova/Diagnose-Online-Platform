@@ -1,3 +1,8 @@
+.active {
+  font-weight: bolder;
+  color: var(--main-color);
+}
+
 .link-dark:focus,
 .link-dark:hover {
   color: var(--main-color);

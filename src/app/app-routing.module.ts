@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'survey', component: SurveyComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: HomeComponent }
 ];
 

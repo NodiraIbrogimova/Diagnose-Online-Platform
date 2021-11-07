@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subject } from 'rxjs';
 
 @Component({
@@ -6,7 +6,7 @@ import { Subject } from 'rxjs';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnDestroy {
+export class HeaderComponent implements OnInit, OnDestroy {
   navItems = [
     { name: 'Home', link: 'home' },
     { name: 'About', link: 'about' },
@@ -19,6 +19,15 @@ export class HeaderComponent implements OnDestroy {
   destroy$ = this.destroy.asObservable();
 
   constructor() {
+    // const homeBar = document.getElementsByClassName('nav-link');
+    // console.log('res: ', homeBar);
+    
+  }
+
+  ngOnInit(): void {
+    let homeBar = document.getElementsByClassName('nav-link')[0];
+    console.log('result: ', homeBar);
+    homeBar.className += " active";
   }
 
   ngOnDestroy(): void {
